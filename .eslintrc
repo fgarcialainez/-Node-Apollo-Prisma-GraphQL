@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "eqeqeq": "warn",
+    "prettier/prettier": "warn"
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
